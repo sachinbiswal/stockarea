@@ -1,0 +1,84 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    /* width: 30%; */
+  }
+  
+  .modal-content {
+    width: 300px; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .modal-label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .modal-input {
+    width: 35%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-select {
+    width: 35%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 5px;
+  }
+  
+  .modal-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .modal-button-save {
+    background-color: #007BFF;
+    color: white;
+    width: 100px;
+  }
+  
+  .modal-button-save:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal-button-cancel {
+    background-color: grey;
+    color: white;width: 100px;
+    
+  }
+  .modal-button-cancel:hover{
+    color:black;
+    background-color: rgba(90, 84, 84, 0.871);
+  }
+  
+  .modal-button-cancel:hover {
+    background-color: #999;
+  }
+  
